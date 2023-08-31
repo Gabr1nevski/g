@@ -1,0 +1,112 @@
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Стили для заголовка */
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: #0000ff;
+  font-size: 5em;
+  margin-top: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+header nav a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0000ff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: #0000ff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Стили для основного содержимого */
+
+main {
+  padding: 20px 0;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+main section img {
+  margin-bottom: 20px;
+}
+
+/* Стили для футера */
+
+footer {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Добавление холодных цветов */
+
+body {
+  background-color: #00aaff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #00aaff;
+}
+
+a {
+  color: #00aaff;
+}
+
+img {
+  border: 1px solid #00aaff;
+}
